@@ -16,7 +16,7 @@
     <ul class="post-list">
         {{ range first 15 .Site.RegularPages }}
         <li>
-            <a href="{{ .URL }}" class="post-link">{{ title .Title }}</a>
+            <a href="{{ .Permalink }}" class="post-link">{{ title .Title }}</a>
         </li>
         {{ end }}
     </ul>

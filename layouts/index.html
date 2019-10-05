@@ -8,7 +8,7 @@
         <!--读取分页内容-->
         {{ range $paginator.Pages }}
         <li>
-            <h2><a href="{{ .URL }}">{{ title .Title | safeHTML }}</a></h2>
+            <h2><a href="{{ .Permalink }}">{{ title .Title | safeHTML }}</a></h2>
             <div class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
             <div class="post-excerpt">
                 {{ .Summary | safeHTML }}
@@ -19,9 +19,9 @@
     <!-- pagination -->
     <div class="pagination">
         {{ with $paginator.Prev -}}
-        <a href="{{ .URL }}" class="next">PREV</a>
+        <a href="{{ .URL }}" class="previous">PREV</a>
         {{- end }}
-        <span class="page_number ">{{ $paginator }} of {{ $paginator.TotalPages }}</span>
+        <span class="page_number ">{{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
         {{ with $paginator.Next -}}
         <a href="{{ .URL }}" class="next">NEXT</a>
         {{- end }}

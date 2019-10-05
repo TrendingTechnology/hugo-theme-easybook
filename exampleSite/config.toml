@@ -1,13 +1,14 @@
-baseURL = "http://baidu.com/"
-languageCode = "en-us"
-title = "Y4er - 信安爱好者"
+baseURL = "https://y4er.com/"
+languageCode = "zh-cn"
+title = "Y4er的博客 | 伪程序员,信安爱好者,专注于网络攻防和信息安全"
 theme = "easybook"
 
-# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsCodefences = true
 pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true    # 没有语言标记的尝试高亮
+pygmentsCodefencesGuessSyntax = true
 
+paginate = 8                                              # 首页每页显示的文章数
+googleAnalytics = "UA-131218098-1"      # UA-XXXXXXXX-X
 # 右上角菜单
 [[menu.main]]
   name = "Home"
@@ -33,14 +34,14 @@ pygmentsCodefencesGuessSyntax = true    # 没有语言标记的尝试高亮
 # 站点信息
 [params]
   author = "Y4er"
-  whoami = "初遇"
-  avatar = "https://avatars1.githubusercontent.com/u/40487319?s=460&v=4"
-  keywords = ["关键字","keywords"]
-  description = "这里是描述"
+  whoami = "哀吾生之须臾,羡长江之无穷."
+  avatar = "https://y4er.com/img/uploads/20190430191344.png"
+  keywords = ["Y4er","信息安全","网络安全","红蓝攻防","渗透测试","bypass","waf","注入","黑客","chabug"]
+  description = "伪程序员,信安爱好者,专注于网络攻防和信息安全."
 
   [params.social]
     GitHub = "http://github.com/Y4er"
-    Email = "github.com/Y4er"
+    Email = "admin@chabug.org"
   [params.utterances]       # https://utteranc.es/
     owner = "Y4er"              # Your GitHub ID
     repo = "Y4er.com"               # The repo to store comments
