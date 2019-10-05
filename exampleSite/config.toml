@@ -1,0 +1,55 @@
+baseURL = "http://baidu.com/"
+languageCode = "en-us"
+title = "Y4er - 信安爱好者"
+theme = "easybook"
+
+# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true    # 没有语言标记的尝试高亮
+
+# 右上角菜单
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  url = "/"
+[[menu.main]]
+  name = "Category"
+  weight = 20
+  url = "/post/"
+[[menu.main]]
+  name = "Words"
+  weight = 30
+  url = "/words"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  url = "/about"
+[[menu.main]]
+  name = "ChaBug"
+  weight = 50
+  url = "http://www.chabug.org"
+
+# 站点信息
+[params]
+  author = "Y4er"
+  whoami = "初遇"
+  avatar = "https://avatars1.githubusercontent.com/u/40487319?s=460&v=4"
+  keywords = ["关键字","keywords"]
+  description = "这里是描述"
+
+  [params.social]
+    GitHub = "http://github.com/Y4er"
+    Email = "github.com/Y4er"
+  [params.utterances]       # https://utteranc.es/
+    owner = "Y4er"              # Your GitHub ID
+    repo = "Y4er.com"               # The repo to store comments
+  baiduPush = true        # baidu push                  # 百度
+  baiduAnalytics = "150ef5faf0461b9f83612d60d72b86b1"      # Baidu Analytics
+  baiduVerification = "PsCl6huhUk"   # Baidu Verification
+  googleVerification = "gPHyyln9EbiXF7wv-nBpX50vJcwJbi1KKbUyFOxuVkA"  # Google Verification         # 谷歌
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
