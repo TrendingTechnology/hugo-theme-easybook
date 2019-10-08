@@ -8,11 +8,9 @@
 <body>
     <div class="header-placeholder"></div>
     {{/*  header  */}}
-    {{ if not .Params.hideHeaderAndFooter -}}
     <header class="header">
         {{ partial "header.html" . }}
     </header>
-    {{- end }}
 
     {{/*  body  */}}
     <div class="page-content">

@@ -24,7 +24,7 @@
 {{- if .Keywords -}}
 {{ $length := len .Keywords | add -1 -}}
 <meta name="keywords"
-  content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{if ne $index $length }}, {{ end }}{{ end }}" />
+  content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" />
 {{- else if .Site.Params.keywords -}}
 {{ $length := len .Site.Params.keywords | add -1 -}}
 <meta name="keywords"
@@ -32,7 +32,7 @@
 {{- end }}
 
 {{/*  theme css  */}}
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 <!-- lightgallery css -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/src/css/lightgallery.css">
 

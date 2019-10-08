@@ -1,6 +1,8 @@
 # EasyBook
-EasyBook是一个移植自[jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)的一个hugo主题。
-# 使用
+EasyBook移植自[jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)，简洁但强大。
+[Demo](http://Y4er.com) [English Document](./README_EN.MD)
+# 开始
+开始前请参考[官方文档](https://gohugo.io/getting-started/quick-start/)
 ```
 hugo new site myblog
 cd myblog
@@ -9,14 +11,25 @@ cp themes/easybook/exampleSite/config.toml config.toml
 hugo new post\helloworld.md
 hugo server
 ```
+
 # 功能
 - 最近文章
-- 懒加载
+- 图片懒加载
 - 灯箱
-- 百度谷歌统计
-- TOC
-- utteranc评论
+- 百度推送统计
+- 谷歌统计
+- 自动目录
+- 多个评论系统
 - 代码高亮
+- 😁表情
+- 自定义js、css
+- shortcode
+
+# 鸣谢
+本仓库参考多个开源主题，在此鸣谢。
+- [jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+- [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
+开发过程中多次参考[官方主题开发文档](https://gohugo.io/templates/)
 
 # LICENSE
 [The MIT License (MIT)](https://github.com/Y4er/hugo-theme-easybook/blob/master/LICENSE)

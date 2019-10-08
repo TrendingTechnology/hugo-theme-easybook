@@ -8,7 +8,7 @@ description = "Easybook is a simple hugo theme."
 homepage = "http://Y4er.com/"
 tags = ['hugo','simple']
 features = ['simple']
-min_version = "0.41"
+min_version = "0.52"
 
 [author]
   name = "Y4er"
@@ -16,6 +16,6 @@ min_version = "0.41"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "jekyll-theme-EasyBook"
+  homepage = "http://laobubu.net/jekyll-theme-EasyBook/"
+  repo = "https://github.com/laobubu/jekyll-theme-EasyBook"

@@ -1,21 +1,21 @@
-{{$prev := .PrevInSection}}
-{{$next := .NextInSection}}
+{{ $prev := .PrevInSection }}
+{{ $next := .NextInSection }}
 
-{{if or $prev $next}}
+{{ if or $prev $next }}
 <ul class="prevnext">
-    {{if $prev}}
+    {{ if $prev }}
     <li>上一篇：
-        <a href="{{$prev.Permalink}}">
-            {{title $prev.Title}}
+        <a href="{{ $prev.Permalink }}">
+            {{ title $prev.Title }}
         </a>
     </li>
-    {{end}}
-    {{if $next}}
+    {{ end }}
+    {{ if $next }}
     <li>下一篇：
-        <a href="{{$next.Permalink}}">
-            {{title $next.Title}}
+        <a href="{{ $next.Permalink }}">
+            {{ title $next.Title }}
         </a>
     </li>
-    {{end}}
+    {{ end }}
 </ul>
-{{end}}
+{{ end }}

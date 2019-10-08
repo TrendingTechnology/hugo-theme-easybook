@@ -7,8 +7,8 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-paginate = 8                                              # 首页每页显示的文章数
-googleAnalytics = "UA-131218098-1"      # UA-XXXXXXXX-X
+paginate = 8                            # 首页每页显示的文章数
+googleAnalytics = "UA-XXXXXXXX-X"      # UA-XXXXXXXX-X
 # 右上角菜单
 [[menu.main]]
   name = "Home"
@@ -31,7 +31,7 @@ googleAnalytics = "UA-131218098-1"      # UA-XXXXXXXX-X
   weight = 50
   url = "http://www.chabug.org"
 
-# 站点信息
+# site info
 [params]
   author = "Y4er"
   whoami = "哀吾生之须臾,羡长江之无穷."
@@ -41,14 +41,42 @@ googleAnalytics = "UA-131218098-1"      # UA-XXXXXXXX-X
 
   [params.social]
     GitHub = "http://github.com/Y4er"
-    Email = "admin@chabug.org"
+    Email = "mailto:admin@chabug.org"
   [params.utterances]       # https://utteranc.es/
-    owner = "Y4er"              # Your GitHub ID
-    repo = "Y4er.com"               # The repo to store comments
-  baiduPush = true        # baidu push                  # 百度
-  baiduAnalytics = "150ef5faf0461b9f83612d60d72b86b1"      # Baidu Analytics
-  baiduVerification = "PsCl6huhUk"   # Baidu Verification
-  googleVerification = "gPHyyln9EbiXF7wv-nBpX50vJcwJbi1KKbUyFOxuVkA"  # Google Verification         # 谷歌
+    owner = "Y4er"          # Your GitHub ID
+    repo = "Y4er.com"       # The repo to store comments
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  # Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = false
+    appId = 'appId'
+    appKey = 'appKey'
+    notify = false          # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false          # Verification code
+    avatar = 'mm' 
+    placeholder = '说点什么吧...'
+    visitor = false
+  
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+  livereUID = ""            # LiveRe UID                  # 来必力
+  
+  baiduPush = true          # baidu push                  # 百度
+  baiduAnalytics = ""       # Baidu Analytics
+  baiduVerification = ""    # Baidu Verification
+  googleVerification = ""   # Google Verification         # 谷歌
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
