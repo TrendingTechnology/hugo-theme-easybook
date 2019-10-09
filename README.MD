@@ -1,7 +1,13 @@
 # EasyBook
-EasyBook移植自[jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)，简洁但强大。
+
+EasyBook移植自[jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)，简洁但强大。在Hugo v0.58.3中测试通过。
 [Demo](http://Y4er.com) [English Document](./README_EN.MD)
+
+# 截图
+![Screenshots](./images/screenshot.png)
+
 # 开始
+
 开始前请参考[官方文档](https://gohugo.io/getting-started/quick-start/)
 ```
 hugo new site myblog
@@ -13,6 +19,7 @@ hugo server
 ```
 
 # 功能
+
 - 最近文章
 - 图片懒加载
 - 灯箱
@@ -26,10 +33,13 @@ hugo server
 - shortcode
 
 # 鸣谢
+
 本仓库参考多个开源主题，在此鸣谢。
 - [jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
 - [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
+
 开发过程中多次参考[官方主题开发文档](https://gohugo.io/templates/)
 
 # LICENSE
+
 [The MIT License (MIT)](https://github.com/Y4er/hugo-theme-easybook/blob/master/LICENSE)

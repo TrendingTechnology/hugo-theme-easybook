@@ -1,7 +1,10 @@
 # EasyBook
 
-EasyBook is ported from [jekyll-theme-EasyBook] (https://github.com/laobubu/jekyll-theme-EasyBook), simple but powerful.
+EasyBook is ported from [jekyll-theme-EasyBook] (https://github.com/laobubu/jekyll-theme-EasyBook), simple but powerful. Passed the test in Hugo v0.58.3.
 [Demo](http://Y4er.com) [中文README](./README.MD)
+
+# Screenshots
+![Screenshots](./images/screenshot.png)
 
 # Start
 
@@ -35,6 +38,7 @@ hugo server
 This warehouse is based on a number of open source topics, and I would like to thank you.
 - [jekyll-theme-EasyBook] (https://github.com/laobubu/jekyll-theme-EasyBook)
 - [hugo-theme-even](https://github.com/olOwOlo/hugo-theme-even)
+
 Many references to the [Official Theme Development Document](https://gohugo.io/templates/) during development 
 
 # LICENSE
