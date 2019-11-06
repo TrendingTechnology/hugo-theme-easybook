@@ -1,10 +1,11 @@
 # EasyBook
 
 EasyBook移植自[jekyll-theme-EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)，简洁但强大。在Hugo v0.58.3中测试通过。
-[Demo](http://Y4er.com) [English Document](./README_EN.MD)
+
+[Demo](http://y4er.com) [English Document](https://github.com/Y4er/hugo-theme-easybook/blob/master/README.md)
 
 # 截图
-![Screenshots](./images/screenshot.png)
+![Screenshots](https://raw.githubusercontent.com/Y4er/hugo-theme-easybook/master/images/screenshot.png)
 
 # 开始
 
