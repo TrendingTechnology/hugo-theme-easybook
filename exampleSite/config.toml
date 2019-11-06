@@ -7,7 +7,7 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-paginate = 8                            # 首页每页显示的文章数
+paginate = 3                            # 首页每页显示的文章数
 googleAnalytics = "UA-XXXXXXXX-X"      # UA-XXXXXXXX-X
 # 右上角菜单
 [[menu.main]]
